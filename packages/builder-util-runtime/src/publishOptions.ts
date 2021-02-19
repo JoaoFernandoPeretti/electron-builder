@@ -260,9 +260,9 @@ function s3Url(options: S3Options) {
 
 function appendPath(url: string, p: string | null | undefined): string {
   if (p != null && p.length > 0) {
-    if (!p.startsWith("/")) {
-      url += "/"
-    }
+    // if (!p.startsWith("/")) {
+    //   url += "/"
+    // }
     url += p
   }
   return url
