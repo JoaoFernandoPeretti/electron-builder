@@ -1,6 +1,7 @@
 {
   "name": "@electron-builder/buguinho22",
   "private": true,
+  "version": "1.0.0",
   "workspaces": [
     "packages/*",
     "test"
